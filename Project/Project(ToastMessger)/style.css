@@ -1,0 +1,161 @@
+html {
+    background-color: gray;
+}
+   #toast {
+    position: fixed;
+    top: 32px;
+    right: 32px;
+
+  }
+  body {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica Neue";
+    background-color: #f4f4f5;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .toast {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 20px 0;
+    min-width: 300px;
+    max-width: 400px;
+    border-left: 4px solid;
+
+  }                                          
+  @keyframes sildeInLeft {
+    from {
+        opacity: 0.5;
+        transform: translateX(calc(100% + 32px));
+    } to    {
+        opacity: 1 ;
+        transform: translateX(calc(0));
+    }
+  }
+  @keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+  }
+.toast + .toast {
+    margin-top: 15px;
+}
+.toast_icon{
+    font-size: 24px;
+    padding-left: 7px;
+}
+
+.fa-solid fa-check{
+    
+}
+.toast_body {
+    flex-grow: 1 ;
+}
+.toast_body,
+.toast_close{
+    padding: 0 16px;
+}
+.toast_title{
+    font-size: 16px; 
+    font-weight: 600; 
+    color : #333 ;
+}
+.toast_msg{
+    font-size: 14px; 
+    font-weight: 550; 
+    color : #888 ; 
+    margin-top:6px; 
+    line-height: 1.5;
+    
+}
+.toast_close{
+    font-size: 24px;
+    color: rgba(0,0,0,0.3)
+}
+.toast_close:hover {
+    opacity: 0.5;
+}
+.fa-solid fa-xmark{
+    
+}
+.toast--success{
+  border-color: green;
+}
+.toast--success .toast_icon {
+    color: green;
+}
+.toast--info{
+    border-color: blue;
+}
+.toast--info .toast_icon {
+    color: blue;
+}
+
+.toast--warning{
+    border-color: orange;
+}
+.toast--warning .toast_icon {
+    color: orange;
+}
+.toast--error{
+    border-color: red ; 
+}
+.toast--error  .toast_icon {
+   color :red ;     
+}   
+#menu {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 450px;
+    max-width: 600px;
+    background-color: #888 ;
+    border-radius: 10px;
+ }
+ .btn {
+    display: flex ; 
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+
+ }
+ .btn--success {
+    background-color: green;
+    border-radius: 10px;
+  
+ }
+.btn--danger {
+    background-color: red; 
+    border-radius: 10px;
+}
+.btn--info {
+    background-color: blue; 
+    border-radius: 10px;
+}
+.btn--warning {
+    background-color: orange; 
+    border-radius: 10px;
+}
+.btn--success:hover {
+    opacity: 0.8;
+}
+.btn--danger:hover {
+    opacity: 0.8;
+}
+.btn--info:hover {
+    opacity: 0.8;
+} 
+.btn--warning:hover {
+    opacity: 0.8;
+}
