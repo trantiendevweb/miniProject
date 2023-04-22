@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin : 0  ; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(94, 236, 241);
+    display: flex ;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+} 
+.app {
+    width: 500px;
+    height: 600px;
+    background-color: white; 
+   padding: 20px;
+ text-align: center;
+ font-family: "Montserrat"; 
+ border-radius: 20px;
+ 
+}
+.products {
+    height: 100% ;
+    overflow-y: scroll;
+    height: 480px;
+}
+.search{
+    width: 100%;
+    display: flex;
+   font-size: 30px;
+   border: 1px solid black;
+   border-radius: 20px ; 
+   padding: 5px;
+   margin-bottom: 10px;
+}
+.search input {
+    border: none; 
+     font-size: 20px;
+     outline: none;
+}
+.product {
+    display: flex ; 
+    padding: 10px;
+    border-radius: 20px;
+}
+.product:hover {
+    background-color: #dadada;
+    cursor: pointer;
+}
+.product img {
+    height: 100px  ;
+    width: 100px;
+    object-fit: center; 
+    object-position: center;
+    
+}
+.product .info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.info .Name  {
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(226, 94, 94) , rgb(53, 250, 234) );
+    
+}
+h1 {
+    margin: 40px;
+}
+.range {
+width: 600px;
+text-align: center;
+border: 1px solid   #aaa;
+background: white;
+border-radius: 25px;
+height: 50px;
+position: relative;
+overflow: hidden;
+line-height: 50px;
+}
+.process {
+    background: linear-gradient(to right ,#bb69cc , #246bac );
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 50px;
+    font-size: 25px;
+}

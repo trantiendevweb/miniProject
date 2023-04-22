@@ -1,0 +1,41 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: linear-gradient(to bottom ,  rgb(238, 132, 132) , rgb(85, 85, 214) );
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.uploadImg {
+    padding: 10px;
+}
+.box {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: white;
+    margin-right: 10px;
+}
+.target {
+    width: 100%;
+    height: 100%;
+     object-fit: center;
+    object-position: center;
+  
+}
+
+.dragging {
+    border: 2px solid white ;
+}

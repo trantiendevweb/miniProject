@@ -1,0 +1,29 @@
+* { 
+    margin :0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+    background: linear-gradient(to right , rgb(45, 153, 200) , rgb(156, 57, 156)); 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.box {
+    background-color: blueviolet;
+    padding: 20px;
+    color: white ; 
+    font-size: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 1px;
+}
+.box p{
+    margin-bottom: 10px;
+       font-size: 15px;
+    font-weight: bold;
+}

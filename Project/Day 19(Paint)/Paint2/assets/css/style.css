@@ -1,0 +1,38 @@
+*{
+    margin: 0 ; 
+    padding: 0; 
+  
+}
+body {
+    height: 100vh;
+    
+}
+.app {
+    height: 100%;
+}
+.control {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(103, 5, 231);
+    align-items: center;
+}
+.navleft {
+    display:  flex;
+    justify-content: center;   
+    align-items: center;
+}
+.navleft input ,.navleft button {
+    height: 40px;
+    width: 40px;
+    margin : 5px ; 
+    padding: 5px ; 
+
+}
+.navright  button , .navright  a{
+    height: 40px;
+    width: 40px;
+    margin : 5px ; 
+    padding: 5px ; 
+    background-color: white;
+}
+

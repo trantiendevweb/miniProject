@@ -1,0 +1,38 @@
+*{
+    margin: 0 ; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, rgba(226, 94, 94) , rgb(53, 250, 234) );
+}
+
+.silder .title{
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+
+.range {
+    width: 600px; 
+    background-color: rgb(121, 119, 119,0.5);
+    height: 50px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.range p {
+    line-height: 50px;
+}
+.process {
+ width: 0%;
+ background-color: aqua;
+ height: 50px;
+
+}
